@@ -1,0 +1,19 @@
+.example-card{
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.micon{
+    color: blue;
+}
+.micon svg {
+    fill: white;
+}
+button{
+    background-color: white;
+    border: none;
+}

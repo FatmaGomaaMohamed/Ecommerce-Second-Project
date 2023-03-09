@@ -1,0 +1,21 @@
+<div *ngFor="let makeup of prod">
+    <mat-card class="example-card"  div fxLayout="column" fxLayoutAlign="space-around center" *ngIf="makeup.Counter!=0">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>{{makeup.Name}}</mat-card-title>
+            <mat-card-subtitle>Price: {{makeup.Price}}</mat-card-subtitle>
+            <mat-card-subtitle>Quantity: {{makeup.Counter}}</mat-card-subtitle>
+            <img mat-card-sm-image [src]="makeup.Image">
+            <mat-card-title>
+              <button (click)="inc(makeup)">
+            <mat-icon class="micon"aria-hidden="false" aria-label="add_circle" fontIcon="add_circle"></mat-icon>
+          </button>
+            {{makeup.Counter}}
+            <button (click)="dec(makeup)">
+            <mat-icon class="micon"aria-hidden="false" aria-label="minus_circle" fontIcon="remove_circle"></mat-icon>
+          </button>
+          </mat-card-title>
+          </mat-card-title-group>
+        </mat-card-header>
+      </mat-card>
+    </div>

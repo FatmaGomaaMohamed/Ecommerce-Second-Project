@@ -1,0 +1,16 @@
+.firstimage{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 150px;
+}
+h1 {
+    font-size: 90px;
+    color: blueviolet;
+  }
+  h2{
+    color: blueviolet;
+    margin-top: 50px;
+  }
+  div{
+    text-align: center;
+  }
